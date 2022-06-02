@@ -1,7 +1,5 @@
 package problemdomain;
 
 public enum Rows {
-	TOP, 
-	MIDDLE, 
-	BOTTOM
+	TOP, MIDDLE, BOTTOM
 }
