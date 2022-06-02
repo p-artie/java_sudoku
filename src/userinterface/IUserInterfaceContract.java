@@ -1,5 +1,7 @@
 package userinterface;
 
+import problemdomain.SudokuGame;
+
 public interface IUserInterfaceContract {
 	interface EventListener {
 		void onSudokuInput(int x, int y, int input);
@@ -7,7 +9,7 @@ public interface IUserInterfaceContract {
 	}
 	
 	interface View {
-		void setListener(IUserInterFaceContract.EventListener listener);
+		void setListener(IUserInterfaceContract.EventListener listener);
 		void updateSquare(int x, int y, int input);
 		void udpateBoard(SudokuGame game);
 		void showDialog(String message);
